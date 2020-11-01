@@ -1,0 +1,30 @@
+PATH
+  remote: .
+  specs:
+    pg_ddm_sql_modifier (0.1)
+      etcdv3 (~> 0)
+      hashie (~> 0)
+      pg_query_pg_ddm (~> 0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    etcdv3 (0.10.2)
+      grpc (~> 1.17)
+    google-protobuf (3.12.0-x86_64-linux)
+    googleapis-common-protos-types (1.0.5)
+      google-protobuf (~> 3.11)
+    grpc (1.28.0-x86_64-linux)
+      google-protobuf (~> 3.11)
+      googleapis-common-protos-types (~> 1.0)
+    hashie (0.4.0)
+    pg_query_pg_ddm (0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pg_ddm_sql_modifier!
+
+BUNDLED WITH
+   2.1.4
